@@ -45,7 +45,7 @@ let nestePlanet = null;
 
 function Velkommen() {
     const bakgrunn1 = new Blocks.Image("bilder/bakgrunn.jpg", {x:-8,y:-8,width:1088,height:818});
-    const radiostemme = new Blocks.Sound("/lyder/manuslesing/radiostemme.m4a",{loop:false,auto:true});
+    const radiostemme = new Blocks.Sound("lyder/manuslesing/radiostemme.m4a",{loop:false,auto:true});
     radiostemme.start();
     const img1 = new Blocks.Image("bilder/startscene/startscene_startknapp.png", {x:300,y:300,width:400,height:200});
     Actions.Click(img1, () => {
