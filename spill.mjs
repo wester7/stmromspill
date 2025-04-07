@@ -142,7 +142,7 @@ function planet1_ostus ()
     bibop_snakke.start();
     const planet1snakkeboble1 = new Blocks.Image("bilder/manus/scene_4.png", {x:50,y:-100,width:900,height:600});
     const planet1romvesen = new Blocks.Image("bilder/romvesen/ostus_Alien.png", {x:200,y:280,width:700,height:600});
-    const planet1musikk = new Blocks.Sound("lyder/musikk/Ostus.m4a",{loop:false,auto:true,volume:0.01});
+    const planet1musikk = new Blocks.Sound("lyder/musikk/Ostus.mp3",{loop:false,auto:true});
     const planet1dialog1 = new Blocks.Sound("lyder/manuslesing/scene4.mp3",{loop:false,auto:true});
     planet1dialog1.start();
     const planet1PilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:100,width:500,height:700});
@@ -182,7 +182,7 @@ function planet2_tallus ()
     bibop_snakke.start();
     const planet2snakkeboble = new Blocks.Image("bilder/manus/scene_6.png", {x:50,y:-100,width:900,height:600});
     const planet2romvesen = new Blocks.Image("bilder/romvesen/tallus_Alien.png", {x:200,y:280,width:700,height:600});
-    const planet2musikk = new Blocks.Sound("lyder/musikk/Tallus.m4a",{loop:false,auto:true,volume:0.01});
+    const planet2musikk = new Blocks.Sound("lyder/musikk/Tallus.mp3",{loop:false,auto:true});
     const planet2dialog = new Blocks.Sound("lyder/manuslesing/scene6.mp3",{loop:false,auto:true});
     planet2dialog.start();
     const planet2PilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:100,width:500,height:700});
@@ -239,7 +239,7 @@ function planet3_blubblubia ()
     bibop_snakke.start();
     const planet3snakkeboble = new Blocks.Image("bilder/manus/scene_8.png", {x:50,y:-100,width:900,height:600});
     const planet3romvesen = new Blocks.Image("bilder/romvesen/blubbblubblia_Alien.png", {x:250,y:220,width:700,height:600});
-    const planet3musikk = new Blocks.Sound("lyder/musikk/Blub.m4a",{loop:false,auto:true,volume:0.01});
+    const planet3musikk = new Blocks.Sound("lyder/musikk/Blub.mp3",{loop:false,auto:true});
     const planet3dialog = new Blocks.Sound("lyder/manuslesing/scene8.mp3",{loop:false,auto:true});
     planet3dialog.start();
     const planet3PilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:100,width:500,height:700});
@@ -281,7 +281,7 @@ function planet4_sylteria ()
     bibop_snakke.start();
     const planet4snakkeboble = new Blocks.Image("bilder/manus/scene_10.png", {x:250,y:-100,width:900,height:600});
     const planet4romvesen = new Blocks.Image("bilder/romvesen/Romvesen_4.png", {x:-150,y:350,width:600,height:500});
-    const planet4musikk = new Blocks.Sound("lyder/musikk/Sylteria.m4a",{loop:false,auto:true,volume:0.01});
+    const planet4musikk = new Blocks.Sound("lyder/musikk/Sylteria.mp3",{loop:false,auto:true});
     const planet4dialog = new Blocks.Sound("lyder/manuslesing/scene10.mp3",{loop:false,auto:true});
     planet4dialog.start();
     const planet4PilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:100,width:500,height:700});
@@ -350,7 +350,7 @@ function planet5_rimus ()
     bibop_snakke.start();
     const planet5snakkeboble = new Blocks.Image("bilder/manus/scene_14.png", {x:50,y:-100,width:900,height:600});
     const planet5romvesen = new Blocks.Image("bilder/romvesen/rimus_Alien.png", {x:300,y:350,width:700,height:600});
-    const planet5musikk = new Blocks.Sound("lyder/musikk/Rimus.m4a",{loop:false,auto:true,volume:0.01});
+    const planet5musikk = new Blocks.Sound("lyder/musikk/Rimus.mp3",{loop:false,auto:true});
     const planet5dialog = new Blocks.Sound("lyder/manuslesing/scene14.mp3",{loop:false,auto:true});
     planet5dialog.start();
     const planet5PilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:100,width:500,height:700});
@@ -391,7 +391,7 @@ function planet6_noffmo ()
     bibop_snakke.start();
     const planet6snakkeboble = new Blocks.Image("bilder/manus/scene_17.png", {x:-50,y:-100,width:900,height:600});
     const planet6romvesen = new Blocks.Image("bilder/romvesen/Romvesen_3.png", {x:200,y:400,width:700,height:500});
-    const planet3musikk = new Blocks.Sound("lyder/musikk/Noffmo.m4a",{loop:false,auto:true,volume:0.01});
+    const planet3musikk = new Blocks.Sound("lyder/musikk/Noffmo.mp3",{loop:false,auto:true});
     const planet6dialog = new Blocks.Sound("lyder/manuslesing/scene17.mp3",{loop:false,auto:true});
     planet6dialog.start();
     const planet6PilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:100,width:500,height:700});
@@ -486,7 +486,7 @@ function bibopia ()
     bibop_snakke.start();
     const bibopiasnakkeboble = new Blocks.Image("bilder/manus/scene_21.png", {x:-50,y:-100,width:900,height:600});
     const bibopiaromvesen = new Blocks.Image("bilder/romvesen/Pappa.png", {x:500,y:150,width:600,height:750});
-    const bibopiamusikk = new Blocks.Sound("lyder/musikk/Bibopia.m4a",{loop:false,auto:true,volume:0.01});
+    const bibopiamusikk = new Blocks.Sound("lyder/musikk/Bibopia.mp3",{loop:false,auto:true});
     const bibopiadialog = new Blocks.Sound("lyder/manuslesing/scene21.mp3",{loop:false,auto:true});
     bibopiadialog.start();
     const bibopiaPilE = new Blocks.Image("bilder/click/pilE.png", {x:650,y:-180,width:500,height:700});
