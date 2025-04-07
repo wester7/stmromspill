@@ -65,7 +65,7 @@ function sceneStart()
     bibop_snakke.start();
     const scenestartdialog = new Blocks.Sound("lyder/manuslesing/scene2.mp3",{loop:false,auto:true});
     scenestartdialog.start();
-    const scene1snakkeboble = new Blocks.Image("bilder/manus/Scene_2.png", {x:350,y:-100,width:900,height:600});
+    const scene1snakkeboble = new Blocks.Image("bilder/manus/scene_2.png", {x:350,y:-100,width:900,height:600});
     const pilE = new Blocks.Image("bilder/click/pilE.png", {x:600,y:200,width:500,height:700});
     Actions.Click(pilE, () => {
         antallKort = 3;
